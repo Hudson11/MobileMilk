@@ -12,10 +12,16 @@ public class CadastrarFazendaActivity extends AppCompatActivity {
     private TextView empresaFazenda;
     private TextView localizacaoFazenda;
     private TextView cnpjFazenda;
-    private TextView cepFazenda;
     private TextView enderecoFazenda;
+    private TextView numeroFazenda;
+    private TextView bairroFazenda;
+    private TextView cidadeFazenda;
+    private TextView estadoFazenda;
 
-    private Button concluir;
+    private Button adicionar;
+    private Button confirmar;
+    private Button cancelar;
+
 
     private String empresa;
     private String localizacao;
@@ -36,10 +42,15 @@ public class CadastrarFazendaActivity extends AppCompatActivity {
         this.empresaFazenda = findViewById(R.id.empresaFazenda);
         this.localizacaoFazenda = findViewById(R.id.localizacaoFazenda);
         this.cnpjFazenda = findViewById(R.id.cnpjFazenda);
-        this.cepFazenda = findViewById(R.id.cepFazenda);
+        //this.cepFazenda = findViewById(R.id.cepFazenda);
         this.enderecoFazenda = findViewById(R.id.enderecoFazenda);
-
-        this.concluir = findViewById(R.id.bConcluir);
+        this.numeroFazenda = findViewById(R.id.numeroFazenda);
+        this.bairroFazenda = findViewById(R.id.bairroFazenda);
+        this.cidadeFazenda = findViewById(R.id.cidadeFazenda);
+        this.cidadeFazenda = findViewById(R.id.estadoFazenda);
+        this.adicionar = findViewById(R.id.bAdicionar);
+        this.confirmar = findViewById(R.id.bCadastrar);
+        this.cancelar = findViewById(R.id.bCancelar);
 
     }
 }
