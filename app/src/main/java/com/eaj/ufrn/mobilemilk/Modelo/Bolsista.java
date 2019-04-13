@@ -49,4 +49,7 @@ public class Bolsista extends Usuario {
     public void setCodigoTipoPerfilUsuario(TipoPerfilUsuario codigoTipoPerfilUsuario) {
         super.setCodigoTipoPerfilUsuario(codigoTipoPerfilUsuario);
     }
+
+    public void gerarOrdemServico(){
+    }
 }
